@@ -91,6 +91,11 @@ h3 {
   font-size: var(--fs-lg);
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 @media (width >= 80em) {
   :root {
     --fs-lg: 2rem;
@@ -104,3 +109,4 @@ h3 {
     --py-xl: 5rem;
   }
 }
+
